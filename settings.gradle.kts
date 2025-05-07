@@ -1,3 +1,3 @@
-rootProject.name = "Spdertils"
+rootProject.name = "Spderlib"
 
 include(":lib")
