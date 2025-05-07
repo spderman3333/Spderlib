@@ -1,6 +1,8 @@
-package com.spderman333.spdertils.mathtils;
+package com.spderman333.spderlib.math;
 
 import org.junit.jupiter.api.Test;
+
+import com.spderman333.spderlib.math.Combinatorics;
 
 import static org.junit.jupiter.api.Assertions.*;
 

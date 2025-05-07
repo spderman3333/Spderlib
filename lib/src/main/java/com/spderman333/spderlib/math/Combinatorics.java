@@ -1,4 +1,4 @@
-package com.spderman333.spdertils.mathtils;
+package com.spderman333.spderlib.math;
 
 /**
  * The Combinatorics Class mainly offers methods that deal with factorials, permutations, and combinations.
@@ -11,8 +11,6 @@ package com.spderman333.spdertils.mathtils;
 
 
 public class Combinatorics {
-
-    //TODO: Add names to the params in javadocs
 
     /**
      * <p><code>n!</code></p>
