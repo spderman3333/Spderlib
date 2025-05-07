@@ -2,7 +2,7 @@ package com.spderman333.spdertils.mathtils;
 
 /**
  * The Combinatorics Class mainly offers methods that deal with factorials, permutations, and combinations.
- * <p>Do note, that all of the functions will fail if a negative number, or a float is passed.</p>
+ * <p>Do note, that all the functions will fail if a negative number, or a float is passed.</p>
  *
  * @see <a href="https://en.wikipedia.org/wiki/Combinatorics">en.wikipedia.org/wiki/Combinatorics</a>
  *
@@ -15,10 +15,9 @@ public class Combinatorics {
     //TODO: Add names to the params in javadocs
 
     /**
-     * Uses the following formula:
      * <p><code>n!</code></p>
      *
-     * @param n
+     * @param n Input for the factorial function.
      * @return The factorial of <code>n</code>.
      *
      * @throws IllegalArgumentException If a negative number is passed.
@@ -41,12 +40,10 @@ public class Combinatorics {
     }
 
     /**
-     * Uses the following formula:
-     *
      * <p><code>(n!)/(n-r)!</code></p>
      *
-     * @param n
-     * @param r
+     * @param n Amount of objects.
+     * @param r Amount of "slots."
      * @return The permutation of <code>n</code> and <code>r</code>.
      *
      * @throws IllegalArgumentException If a negative number is passed.
@@ -63,12 +60,10 @@ public class Combinatorics {
     }
 
     /**
-     * Uses the following formula:
-     *
      * <p><code>(n!)/(r!(n-r)!)</code></p>
      *
-     * @param n
-     * @param r
+     * @param n Amount of objects.
+     * @param r Amount of "slots."
      * @return The combination of <code>n</code> and <code>r</code>.
      *
      * @throws IllegalArgumentException If a negative number is passed.
